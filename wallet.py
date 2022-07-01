@@ -1,14 +1,14 @@
 from binascii import hexlify, unhexlify
 import struct
 
-from . import address
-from .backends.jsonrpc import JSONRPCWallet
-from . import base58
-from . import const
-from . import ed25519
-from . import numbers
-from .transaction import Payment, PaymentManager
-from .keccak import keccak_256
+from wallet.monero import address
+from wallet.monero.backends.jsonrpc import JSONRPCWallet
+from wallet.monero import base58
+from wallet.monero import const
+from wallet.monero import ed25519
+from wallet.monero import numbers
+from wallet.monero.transaction import Payment, PaymentManager
+from wallet.monero.keccak import keccak_256
 
 
 class Wallet(object):

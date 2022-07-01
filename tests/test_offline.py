@@ -1,9 +1,9 @@
 import pytest
 import unittest
 
-from monero.backends.offline import OfflineWallet, WalletIsOffline
-from monero.wallet import Wallet
-from .base import JSONTestCase
+from wallet.monero.backends.offline import OfflineWallet, WalletIsOffline
+from wallet.monero.wallet import Wallet
+from wallet.monero.tests.base import JSONTestCase
 
 
 class OfflineTest(unittest.TestCase):

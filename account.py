@@ -1,5 +1,5 @@
-from . import const
-from .transaction import PaymentManager
+from wallet.monero import const
+from wallet.monero.transaction import PaymentManager
 
 
 class Account(object):

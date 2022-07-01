@@ -1,4 +1,4 @@
-from .wordlist import get_wordlist, list_wordlists
+from wallet.monero.wordlists.wordlist import get_wordlist, list_wordlists
 from .english import English
 
 from .chinese_simplified import ChineseSimplified

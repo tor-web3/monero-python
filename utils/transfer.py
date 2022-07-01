@@ -5,11 +5,11 @@ import logging
 import os
 import re
 
-import monero
-from monero.address import address
-from monero.numbers import as_monero
-from monero.wallet import Wallet
-from monero.backends.jsonrpc import JSONRPCWallet
+import wallet.monero
+from wallet.monero.address import address
+from wallet.monero.numbers import as_monero
+from wallet.monero.wallet import Wallet
+from wallet.monero.backends.jsonrpc import JSONRPCWallet
 
 
 def url_data(url):

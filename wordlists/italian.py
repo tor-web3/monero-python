@@ -57,7 +57,7 @@
 #     Most recent commit: 8ea3c4d54429976e9001b8cc4868b721e6747e3c
 
 
-from .wordlist import Wordlist
+from wallet.monero.wordlists.wordlist import Wordlist
 
 
 class Italian(Wordlist):

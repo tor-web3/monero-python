@@ -4,11 +4,11 @@ import six
 import struct
 import warnings
 
-from . import base58
-from . import const
-from . import ed25519
-from . import numbers
-from .keccak import keccak_256
+from wallet.monero import base58
+from wallet.monero import const
+from wallet.monero import ed25519
+from wallet.monero import numbers
+from wallet.monero.keccak import keccak_256
 
 _ADDR_REGEX = re.compile(
     r"^[123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz]{95}$"

@@ -6,10 +6,10 @@ import re
 import sys
 import six
 
-from monero.backends.jsonrpc import JSONRPCDaemon
-from monero.daemon import Daemon
-from monero.transaction import Transaction
-from monero import exceptions
+from wallet.monero.backends.jsonrpc import JSONRPCDaemon
+from wallet.monero.daemon import Daemon
+from wallet.monero.transaction import Transaction
+from wallet.monero import exceptions
 
 
 def url_data(url):

@@ -8,13 +8,13 @@ import logging
 import requests
 import six
 
-from ... import address
-from ... import exceptions
-from ...block import Block
-from ...const import NET_MAIN, NET_TEST, NET_STAGE
-from ...numbers import from_atomic, to_atomic
-from ...transaction import Transaction
-from .exceptions import RPCError, MethodNotFound, Unauthorized
+from wallet.monero import address
+from wallet.monero import exceptions
+from wallet.monero.block import Block
+from wallet.monero.const import NET_MAIN, NET_TEST, NET_STAGE
+from wallet.monero.numbers import from_atomic, to_atomic
+from wallet.monero.transaction import Transaction
+from wallet.monero.backends.jsonrpc.exceptions import RPCError, MethodNotFound, Unauthorized
 
 
 _log = logging.getLogger(__name__)

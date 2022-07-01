@@ -1,6 +1,6 @@
 import six
 
-from .backends.jsonrpc import JSONRPCDaemon
+from wallet.monero.backends.jsonrpc import JSONRPCDaemon
 
 
 class Daemon(object):

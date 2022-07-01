@@ -4,8 +4,8 @@ import logging
 import operator
 import re
 
-from monero.backends.jsonrpc import JSONRPCDaemon
-from monero.daemon import Daemon
+from wallet.monero.backends.jsonrpc import JSONRPCDaemon
+from wallet.monero.daemon import Daemon
 
 
 def url_data(url):

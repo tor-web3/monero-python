@@ -3,11 +3,11 @@ from decimal import Decimal
 import unittest
 import warnings
 
-from monero.wallet import Wallet
-from monero.account import Account
-from monero.address import address
-from monero.numbers import PaymentID
-from monero.transaction import IncomingPayment, Transaction
+from wallet.monero.wallet import Wallet
+from wallet.monero.account import Account
+from wallet.monero.address import address
+from wallet.monero.numbers import PaymentID
+from wallet.monero.transaction import IncomingPayment, Transaction
 
 
 class FiltersTestCase(unittest.TestCase):

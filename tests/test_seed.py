@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 import unittest
-from monero.address import Address
-from monero.seed import Seed
-from monero.wordlists import list_wordlists
+from wallet.monero.address import Address
+from wallet.monero.seed import Seed
+from wallet.monero.wordlists import list_wordlists
 
 
 class SeedTestCase(unittest.TestCase):

@@ -1,8 +1,8 @@
-from .. import exceptions
-from ..account import Account
-from ..address import Address
-from ..numbers import EMPTY_KEY
-from ..seed import Seed
+from wallet.monero import exceptions
+from wallet.monero.account import Account
+from wallet.monero.address import Address
+from wallet.monero.numbers import EMPTY_KEY
+from wallet.monero.seed import Seed
 
 
 class WalletIsOffline(exceptions.BackendException):

@@ -1,6 +1,6 @@
 import operator
 import six
-from .transaction import Transaction
+from wallet.monero.transaction import Transaction
 
 
 class Block(object):

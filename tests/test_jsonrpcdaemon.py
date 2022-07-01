@@ -5,13 +5,13 @@ import os
 import responses
 import six
 
-from monero.const import NET_STAGE
-from monero.daemon import Daemon
-from monero.backends.jsonrpc import JSONRPCDaemon, RPCError
-from monero.exceptions import TransactionWithoutBlob, DaemonIsBusy
-from monero.transaction import Transaction
+from wallet.monero.const import NET_STAGE
+from wallet.monero.daemon import Daemon
+from wallet.monero.backends.jsonrpc import JSONRPCDaemon, RPCError
+from wallet.monero.exceptions import TransactionWithoutBlob, DaemonIsBusy
+from wallet.monero.transaction import Transaction
 
-from .base import JSONTestCase
+from wallet.monero.tests.base import JSONTestCase
 
 
 class JSONRPCDaemonTestCase(JSONTestCase):

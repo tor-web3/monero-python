@@ -7,14 +7,14 @@ except ImportError:
     from mock import patch, Mock
 import responses
 
-from monero.backends.jsonrpc import JSONRPCDaemon, JSONRPCWallet
-from monero.backends.offline import OfflineWallet
-from monero.daemon import Daemon
-from monero.transaction import Transaction, Payment
-from monero.transaction.extra import ExtraParser
-from monero.wallet import Wallet
+from wallet.monero.backends.jsonrpc import JSONRPCDaemon, JSONRPCWallet
+from wallet.monero.backends.offline import OfflineWallet
+from wallet.monero.daemon import Daemon
+from wallet.monero.transaction import Transaction, Payment
+from wallet.monero.transaction.extra import ExtraParser
+from wallet.monero.wallet import Wallet
 
-from .base import JSONTestCase
+from wallet.monero.tests.base import JSONTestCase
 
 
 class OutputTestBase(JSONTestCase):

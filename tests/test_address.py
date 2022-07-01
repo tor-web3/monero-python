@@ -1,8 +1,8 @@
 import pytest
 import unittest
 
-from monero import const
-from monero.address import Address, SubAddress, IntegratedAddress, address
+from wallet.monero import const
+from wallet.monero.address import Address, SubAddress, IntegratedAddress, address
 from tests.utils import classproperty
 
 

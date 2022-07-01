@@ -4,10 +4,10 @@ from operator import attrgetter
 import random
 import unittest
 
-from monero.address import address
-from monero.numbers import PaymentID
-from monero.transaction import IncomingPayment, Transaction, Output, _ByHeight
-from monero import exceptions
+from wallet.monero.address import address
+from wallet.monero.numbers import PaymentID
+from wallet.monero.transaction import IncomingPayment, Transaction, Output, _ByHeight
+from wallet.monero import exceptions
 
 
 class FiltersTestCase(unittest.TestCase):

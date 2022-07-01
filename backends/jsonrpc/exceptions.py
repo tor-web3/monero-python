@@ -1,4 +1,4 @@
-from ... import exceptions
+from wallet.monero import exceptions
 
 
 class RPCError(exceptions.BackendException):

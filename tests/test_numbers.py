@@ -2,7 +2,7 @@ from decimal import Decimal
 import sys
 import unittest
 
-from monero.numbers import to_atomic, from_atomic, as_monero, PaymentID
+from wallet.monero.numbers import to_atomic, from_atomic, as_monero, PaymentID
 
 
 class NumbersTestCase(unittest.TestCase):

@@ -2,9 +2,9 @@ from datetime import datetime
 import six
 import unittest
 
-from monero.block import Block
-from monero.numbers import from_atomic
-from monero.transaction import Transaction
+from wallet.monero.block import Block
+from wallet.monero.numbers import from_atomic
+from wallet.monero.transaction import Transaction
 
 
 class BlockTestCase(unittest.TestCase):

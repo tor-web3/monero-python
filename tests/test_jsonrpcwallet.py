@@ -8,11 +8,11 @@ try:
 except ImportError:
     from mock import patch, Mock
 
-from monero.wallet import Wallet
-from monero.address import BaseAddress, Address, SubAddress
-from monero.seed import Seed
-from monero.transaction import IncomingPayment, OutgoingPayment, Transaction
-from monero.backends.jsonrpc import JSONRPCWallet
+from wallet.monero.wallet import Wallet
+from wallet.monero.address import BaseAddress, Address, SubAddress
+from wallet.monero.seed import Seed
+from wallet.monero.transaction import IncomingPayment, OutgoingPayment, Transaction
+from wallet.monero.backends.jsonrpc import JSONRPCWallet
 
 from .base import JSONTestCase
 

@@ -37,9 +37,9 @@
 
 from binascii import hexlify, unhexlify
 from os import urandom
-from . import base58, const, ed25519, wordlists
-from .address import address
-from .keccak import keccak_256
+from wallet.monero import base58, const, ed25519, wordlists
+from wallet.monero.address import address
+from wallet.monero.keccak import keccak_256
 
 
 class Seed(object):
